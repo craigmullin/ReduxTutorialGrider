@@ -1,1 +1,18 @@
 Notes
+
+6/9 Flow:
+Redux constructs the State
+React provides the View
+Redux-React is the link
+
+Reducer returns array of books (data)
+Add reducer to rootReducer in index.js
+Component -> Container
+Containers are aware of State - bonded to the state
+
+Actions/Action Creators
+A button click calls an Action Creator
+Action Creator returns object (payload) that is sent to all reducers
+A reducer can choose to return a different piece of state
+
+
